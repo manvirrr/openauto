@@ -92,7 +92,8 @@ target_link_libraries(autoapp
                         ${TAGLIB_LIBRARIES}
                         ${BLKID_LIBRARIES}
                         ${AASDK_PROTO_LIBRARIES}
-                        ${AASDK_LIBRARIES})
+                        ${AASDK_LIBRARIES}
+                        ${wiringPi_LIBRARIES})
 
 set(btservice_sources_directory ${sources_directory}/btservice)
 set(btservice_include_directory ${include_directory}/f1x/openauto/btservice)

@@ -27,7 +27,7 @@
 #include <f1x/openauto/autoapp/Service/SpeechAudioService.hpp>
 #include <f1x/openauto/autoapp/Service/SystemAudioService.hpp>
 #include <f1x/openauto/autoapp/Service/AudioInputService.hpp>
-#include <f1x/openauto/autoapp/Service/SensorService.hpp>
+
 #include <f1x/openauto/autoapp/Service/BluetoothService.hpp>
 #include <f1x/openauto/autoapp/Service/InputService.hpp>
 #include <f1x/openauto/autoapp/Projection/QtVideoOutput.hpp>
@@ -39,6 +39,7 @@
 #include <f1x/openauto/autoapp/Projection/LocalBluetoothDevice.hpp>
 #include <f1x/openauto/autoapp/Projection/RemoteBluetoothDevice.hpp>
 #include <f1x/openauto/autoapp/Projection/DummyBluetoothDevice.hpp>
+#include <f1x/openauto/autoapp/Service/SensorService.hpp>
 
 namespace f1x
 {
