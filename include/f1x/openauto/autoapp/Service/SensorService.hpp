@@ -42,6 +42,8 @@ public:
     bool previous = false;
     void start() override;
     void stop() override;
+    void pause() override;
+    void resume() override;
     void fillFeatures(aasdk::proto::messages::ServiceDiscoveryResponse& response) override;
     void onChannelOpenRequest(const aasdk::proto::messages::ChannelOpenRequest& request) override;
     void onSensorStartRequest(const aasdk::proto::messages::SensorStartRequestMessage& request) override;
