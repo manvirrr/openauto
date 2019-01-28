@@ -289,7 +289,7 @@ void AndroidAutoEntity::schedulePing()
            error != aasdk::error::ErrorCode::OPERATION_IN_PROGRESS)
         {
             OPENAUTO_LOG(error) << "[AndroidAutoEntity] ping timer exceeded.";
-            this->triggerQuit();
+            //this->triggerQuit();
         }
     });
 
