@@ -258,7 +258,7 @@ int main(int argc, char* argv[])
     });
 
     if (configuration->hideWarning() == false) {
-        warningdialog.show();
+        //warningdialog.show();
     }
 
     app->waitForUSBDevice();
