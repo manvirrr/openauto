@@ -1965,7 +1965,7 @@ void f1x::openauto::autoapp::ui::MainWindow::tmpChanged()
     this->systemupdate = check_file_exist("/tmp/system_update_available");
 
     if (this->csmtupdate || this->udevupdate || this->openautoupdate || this->systemupdate) {
-        if (ui_->pushButtonUpdate->isVisible() == false) {
+       /* if (ui_->pushButtonUpdate->isVisible() == false) {
             ui_->pushButtonUpdate->show();
             ui_->label_left->show();
             ui_->label_right->show();
@@ -1974,7 +1974,7 @@ void f1x::openauto::autoapp::ui::MainWindow::tmpChanged()
             } else {
                 ui_->label_dummy_right->show();
             }
-        }
+        }*/
     } else {
         if (ui_->pushButtonUpdate->isVisible() == true) {
             ui_->pushButtonUpdate->hide();
@@ -1982,7 +1982,7 @@ void f1x::openauto::autoapp::ui::MainWindow::tmpChanged()
             ui_->label_right->hide();
             ui_->label_dummy_right->hide();
             if (this->devModeEnabled) {
-                ui_->devlabel_right->show();
+                //ui_->devlabel_right->show();
             }
         }
     }
