@@ -161,9 +161,9 @@ MainWindow::MainWindow(configuration::IConfiguration::Pointer configuration, QWi
         QString branch = configuration_->readFileContent("/etc/crankshaft.branch");
         if (branch != "crankshaft-ng") {
             if (branch == "csng-dev") {
-                ui_->Header_Label->setText("<html><head/><body><p><span style=' font-style:normal; color:#ffffff;'>crank</span><span style=' font-style:normal; color:#5ce739;'>shaft </span><span style=' font-style:normal; color:#40bfbf;'>NG </span><span style=' font-style:normal; color:#888a85;'>- </span><span style=' font-style:normal; color:#cc0000;'>Dev-Build</span></p></body></html>");
+                ui_->Header_Label->setText("");
             } else {
-                ui_->Header_Label->setText("<html><head/><body><p><span style=' font-style:normal; color:#ffffff;'>crank</span><span style=' font-style:normal; color:#5ce739;'>shaft </span><span style=' font-style:normal; color:#40bfbf;'>NG </span><span style=' font-style:normal; color:#888a85;'>- </span><span style=' font-style:normal; color:#ce5c00;'>Custom-Build</span></p></body></html>");
+                ui_->Header_Label->setText("");
             }
         }
     }

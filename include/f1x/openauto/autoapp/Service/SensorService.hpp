@@ -64,6 +64,7 @@ private:
     bool readSensor();
     boost::asio::deadline_timer timer_;
     bool firstRun = true;
+    int intensity = 10000;
     //void onTimerExceeded(const boost::system::error_code& error)
 
     boost::asio::io_service::strand strand_;

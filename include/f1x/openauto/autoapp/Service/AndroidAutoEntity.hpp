@@ -78,6 +78,7 @@ private:
     ServiceList serviceList_;
     IPinger::Pointer pinger_;
     IAndroidAutoEntityEventHandler* eventHandler_;
+    int pingError=0;
 };
 
 }
